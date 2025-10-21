@@ -1,6 +1,21 @@
 .container{
     margin-bottom: 50px;
 }
+
+.common-tag{
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: Roboto;
+}
+.common-tag span{
+    color: rgb(252, 3, 3);
+    /* transition: 2s all ease-in; */
+}
+.common-tag span:hover{
+    text-decoration: underline;
+}
+
+/* carousel Section Design Start */
 .carousel-caption{
     position: absolute;
     top: 50%;
@@ -36,13 +51,6 @@
     font-weight: bold;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
 @media (max-width: 768px) {
   .carousel-caption {
     top: 60%;
@@ -55,3 +63,4 @@
     font-size: 16px;
   }
 }
+/* carousel Section Design End */
