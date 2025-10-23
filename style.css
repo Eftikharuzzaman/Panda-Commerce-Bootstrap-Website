@@ -73,6 +73,45 @@
 }
 /* carousel Section Design End */
 
+/* Card Section Design Start */
+
+
+
+.card .card-body span{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: rgb(235, 10, 10);
+}
+.card .card-body del{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.card .card-body h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin: 20px 0;
+}
+.card .card-body p{
+    font-size: 18px;
+    font-family: Roboto;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Card Section Design End */
+
 
 /* Footer Design Start */
 .mainfooter{
@@ -220,12 +259,4 @@
         margin-left: 10px;
     }
 }
-
-
-
-
-
-
-
-
 /* Footer Design End */
