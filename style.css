@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 .container{
     margin-bottom: 50px;
 }
@@ -64,3 +72,160 @@
   }
 }
 /* carousel Section Design End */
+
+
+/* Footer Design Start */
+.mainfooter{
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin-left: 20px; */
+}
+.mainfooter .text{
+    margin-top: 30px;
+}
+.mainfooter .text p{
+    font-size: 16px;
+    font-family: Roboto;
+}
+.mainfooter .items{
+    margin-left: 25px;
+}
+.mainfooter .items h4{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.mainfooter .items ul{
+    padding-left: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+.mainfooter .items ul li{
+    margin-bottom: 10px;
+}
+.mainfooter ul li a box-icon{
+    width: 25px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 400;
+}
+.mainfooter ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #95a5a6;
+    transition: 0.5s all ease;
+}
+.mainfooter ul li a:hover{
+    color: rgb(233, 8, 8);
+    margin-left: 5px;
+}
+.mainfooter .last h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Roboto;
+}
+.mainfooter .last p{
+    font-size: 16px;
+    font-family: Roboto;
+    margin-top: 20px;
+}
+.mainfooter .last input{
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+
+
+@media (max-width: 1200px){
+
+    .mainfooter{
+        margin-left: 0;
+    }
+    .mainfooter .first{
+        width: 22%;
+    }
+}
+
+@media (max-width: 990px) {
+ .mainfooter .footer {
+    flex-wrap: wrap;
+  }
+
+  .mainfooter .footer .items{
+    margin-left: 30px;
+  }
+  .mainfooter .footer .second{
+    margin-left: 45px;
+  }
+  .mainfooter .footer .third{
+    margin-left: 0;
+  }
+    .mainfooter .footer .fourth{
+        margin-top: 40px;
+    }
+    .mainfooter .footer .last{
+        margin-top: 20px;
+    }
+  .mainfooter .text p{
+    font-size: 14px;
+  } 
+}
+
+
+@media (max-width: 760px){
+
+    .mainfooter .first {
+        width: 40%;
+    }
+    .mainfooter .footer .second{
+        margin-top: 45px;
+    }
+    .mainfooter .footer .third{
+        width: 40%;
+    }
+    .mainfooter .footer .third{
+        margin-top: 30px;
+    }
+    .mainfooter .footer .last{
+        margin-right: 30%;
+    }
+}
+@media (max-width: 575px){
+    .mainfooter .footer .last {
+        margin-right: 5%;
+    }
+}
+@media (max-width: 325px){
+    .mainfooter .first {
+        width: 100%;
+    }
+    .mainfooter .footer .second{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .mainfooter .footer .third{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .mainfooter .footer .fourth{
+        margin-right: auto;
+        margin-left: 15px;
+    }
+    .mainfooter .footer .last{
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Footer Design End */
